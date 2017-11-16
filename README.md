@@ -1,9 +1,18 @@
+[![Go Report Card](https://goreportcard.com/badge/github.com/tomarus/dlock)](https://goreportcard.com/report/github.com/tomarus/dlock)
+[![GoDoc](https://godoc.org/github.com/tomarus/dlock?status.svg)](https://godoc.org/github.com/tomarus/dlock)
+
 DLock
 =====
 
 DLock is a basic distributed Redis backed lock package and commandline utility written in Go.
 
 It's usage lives in crontabs running on multiple servers of which only a single server should perform a task.
+
+## Installation
+
+```
+go install github.com/tomarus/dlock/cmd/dlock
+```
 
 ## Example cron entries
 
